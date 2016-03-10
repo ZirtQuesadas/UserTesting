@@ -1,0 +1,122 @@
+/*INICIA HEADER */
+header a, li{
+	color: #FFFFFF;
+	list-style: none;
+	text-decoration: none;
+	text-transform: none;
+	z-index: 1;
+}
+header h2 {
+	color: #ffffff;
+	font-size: 38px;
+	padding: 80px 280px;
+	text-align: justify;
+	z-index: 1;
+
+}
+.header-image{
+	background-image:url(../image/large.jpg);
+	width: 100%;
+	height: 100vh; /*Poner query de breakpoint*/ /*vh viewport height :D :D :D */
+	z-index: -1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+nav.text-right{
+	list-style-type: none;
+	position: relative;
+	text-align: right;
+	z-index: 1;
+}
+.azul-opacity{
+	z-index: 1;
+	background-color: #0066ff;
+	opacity: 0.6;
+	color: #ffffff;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+.azul-opacity h4{
+	font-size: 25px;
+	padding-top: 70px;
+}
+.float{
+	position: relative;
+	opacity: 1!important;
+	z-index: 1;
+}
+.btn{
+	width: 200px;
+	height: 50px;
+	background: #0066ff;
+	margin:5% 0px 0px 33%;
+	padding: 15px;
+	border-radius: 100px;
+	border: #ffffff solid 2px;
+}
+.btn:hover{
+	background-color: #ffffff;
+	color: #0066ff;
+}
+/*termina header*/
+
+
+/*INICIO section.LoremBIG Hecho por Bet  */
+section.LoremBIG
+	{
+		background-color: white;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+		h2
+			{
+				color: #FF6666;
+				text-align: center;
+				padding-top: 20px;
+			}
+	
+		div.col-4
+			{
+				display: inline-block !important;
+			}
+		div.LoremBIGPosition
+		{
+			margin: 15px 10px;
+			position: relative;
+			width: 100%;
+			display: inline-block !important;
+			font-family: sans-serif;
+			text-align: center;
+			border-radius: 1000px;
+			background-color: #0066ff;
+		}
+		div.LoremBIGPosition	i
+					{
+						position: relative;
+						max-width: 230px;
+						color: #FF6666;
+						margin: 5px center;
+					}
+		div.LoremBIGPosition	h3
+					{
+						font-family: ;
+						color: black;
+						margin: 10px center;
+						position: relative;
+						max-width: 230px;
+					}
+		div.LoremBIGPosition	p
+					{
+						font-family: ;
+						color: #888;
+						position: relative;
+						display: inline-block;
+						max-width: 230px;
+						margin: 5px center;
+					}
+	
+/*FIN section.LoremBIG Hecho por Bet */
